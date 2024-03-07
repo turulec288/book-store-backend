@@ -16,7 +16,7 @@ app.use(express.json());
 //Option 2: Allow custom origins
 app.use(
     cors({
-        origin: ['http://localhost:5173', 'https://book-store.onrender.com'],
+        origin: ['http://localhost:5173', 'https://book-store.onrender.com', 'https://book-store-ovu1.onrender.com'],
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type'],
     })
